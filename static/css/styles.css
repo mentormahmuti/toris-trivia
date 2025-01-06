@@ -1,0 +1,76 @@
+/* Reset some basic elements to have a consistent starting point */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    color: #3e64ff;
+    margin-bottom: 20px;
+}
+
+/* Style for the quiz question */
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Style for the quiz choices */
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button style */
+button {
+    background-color: #3e64ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3247e0;
+}
+
+/* Style for the results page */
+.results {
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3e64ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #3247e0;
+}
