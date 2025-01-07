@@ -9,10 +9,11 @@
 <body>
     <h1>Trivia Quiz</h1>
     <p>{{ question }}</p>
+    
     <form method="POST">
         {% for choice in choices %}
             <label>
-                <input type="radio" name="answer" value="{{ choice }}"> {{ choice }}
+                <input type="radio" name="answer" value="{{ choice }}" required> {{ choice }}
             </label><br>
         {% endfor %}
         <button type="submit">Submit</button>
