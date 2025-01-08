@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia Quiz</title>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <h1>Trivia Quiz</h1>
-    <p>{{ question }}</p>
-    
-    <form method="POST">
-        {% for choice in choices %}
+    <h1>Question {{ session.current_question + 1 }}</h1>
+    <p>{{ question.question }}</p>
+    <form method="post">
+        {% for choice in question.choices %}
             <label>
-                <input type="radio" name="answer" value="{{ choice }}" required> {{ choice }}
-            </label><br>
+                <input type="radio" name="choice" value="{{ choice }}" required> {{ choice }}
+            </label>
         {% endfor %}
-        <button type="submit">Submit</button>
+        <input type="submit" value="Submit">
     </form>
+    <div class="score">
+        Score: {{ score }}/{{ session.current_question }}
+    </div>
+    {% if correct_answer %}
+        <div class="correct-answer">
+            Correct answer: {{ correct_answer }}
+        </div>
+    {% endif %}
 </body>
 </html>
