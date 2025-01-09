@@ -3,11 +3,12 @@
 <head>
     <title>Quiz</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
 <body>
     <h1>Question {{ session.current_question + 1 }}</h1>
     <p>{{ question.question }}</p>
-    <form method="post">
+    <form id="quiz-form" method="post">
         {% for choice in question.choices %}
             <label>
                 <input type="radio" name="choice" value="{{ choice }}" required> {{ choice }}
