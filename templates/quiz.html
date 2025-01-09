@@ -2,25 +2,29 @@
 <html>
 <head>
     <title>Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
-<body>
-    <h1>Question {{ session.current_question + 1 }}</h1>
-    <p>{{ question.question }}</p>
-    <form id="quiz-form" method="post">
+<body class="container">
+    <h1 class="text-center mt-5">Question {{ session.current_question + 1 }}</h1>
+    <div class="progress mb-4">
+        <div class="progress-bar" role="progressbar" style="width: {{ (session.current_question + 1) * 10 }}%;" aria-valuenow="{{ (session.current_question + 1) * 10 }}" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <p class="text-center">{{ question.question }}</p>
+    <form id="quiz-form" method="post" class="text-center">
         {% for choice in question.choices %}
-            <label>
-                <input type="radio" name="choice" value="{{ choice }}" required> {{ choice }}
-            </label>
+            <button type="submit" name="choice" value="{{ choice }}" class="btn btn-outline-primary btn-block mt-2">{{ choice }}</button>
         {% endfor %}
-        <input type="submit" value="Submit">
     </form>
-    <div class="score">
+    <div class="score text-center mt-3">
         Score: {{ score }}/{{ session.current_question }}
     </div>
     {% if correct_answer %}
-        <div class="correct-answer">
+        <div class="correct-answer text-center mt-3">
             Correct answer: {{ correct_answer }}
         </div>
     {% endif %}
