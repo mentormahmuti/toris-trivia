@@ -101,7 +101,6 @@
 {"question": "Which country hosted the 2016 Summer Olympics?", "choices": ["Brazil", "China", "United States", "Russia"], "correct": "Brazil"},
 {"question": "Which player holds the record for the most goals in World Cup history?", "choices": ["Marta", "Cristiano Ronaldo", "Miroslav Klose", "Pele"], "correct": "Miroslav Klose"},
 {"question": "Which country has won the most Rugby World Cups?", "choices": ["New Zealand", "Australia", "South Africa", "England"], "correct": "New Zealand"},
-{"question": "Which tennis player has won the most Grand Slam singles titles?", "choices": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Serena Williams"], "correct": "Margaret Court"},
 {"question": "In which sport would you perform a slam dunk?", "choices": ["Basketball", "Volleyball", "Tennis", "Football"], "correct": "Basketball"},
 {"question": "Which country is known for the sport of sumo wrestling?", "choices": ["Japan", "China", "South Korea", "Thailand"], "correct": "Japan"},
 {"question": "Who is known as 'The Greatest of All Time' in boxing?", "choices": ["Muhammad Ali", "Mike Tyson", "Floyd Mayweather", "Sugar Ray Leonard"], "correct": "Muhammad Ali"},
@@ -178,7 +177,574 @@
 {"question": "Which of these is a mobile operating system?", "choices": ["Linux", "Windows", "iOS", "Unix"], "correct": "iOS"},
 {"question": "What year was the first email sent?", "choices": ["1971", "1981", "1991", "2001"], "correct": "1971"},
 {"question": "What is the main function of a web browser?", "choices": ["To store files", "To display websites", "To process data", "To program software"], "correct": "To display websites"},
-{"question": "Which company invented the first smartphone with a touchscreen?", "choices": ["Apple", "Microsoft", "Nokia", "Palm"], "correct": "Apple"}
+{"question": "Which company invented the first smartphone with a touchscreen?", "choices": ["Apple", "Microsoft", "Nokia", "Palm"], "correct": "Apple"},
+
+{
+    "question": "What is the capital of Iceland?", 
+    "choices": ["Reykjavik", "Oslo", "Helsinki", "Stockholm"], 
+    "correct": "Reykjavik"
+},
+{
+    "question": "Which planet has the most moons?", 
+    "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"], 
+    "correct": "Saturn"
+},
+{
+    "question": "Who wrote the novel 'The Great Gatsby'?", 
+    "choices": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "Mark Twain"], 
+    "correct": "F. Scott Fitzgerald"
+},
+{
+    "question": "What is the smallest bone in the human body?", 
+    "choices": ["Stapes", "Femur", "Radius", "Ulna"], 
+    "correct": "Stapes"
+},
+{
+    "question": "Which element is represented by the symbol 'K'?", 
+    "choices": ["Potassium", "Krypton", "Calcium", "Sodium"], 
+    "correct": "Potassium"
+},
+{
+    "question": "Who painted 'The Last Supper'?", 
+    "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"], 
+    "correct": "Leonardo da Vinci"
+},
+{
+    "question": "What is the largest lake in the world by surface area?", 
+    "choices": ["Caspian Sea", "Lake Superior", "Lake Victoria", "Lake Michigan"], 
+    "correct": "Caspian Sea"
+},
+{
+    "question": "Who developed the theory of electromagnetism?", 
+    "choices": ["James Clerk Maxwell", "Albert Einstein", "Isaac Newton", "Nikola Tesla"], 
+    "correct": "James Clerk Maxwell"
+},
+{
+    "question": "What is the capital of Portugal?", 
+    "choices": ["Lisbon", "Madrid", "Barcelona", "Porto"], 
+    "correct": "Lisbon"
+},
+{
+    "question": "Which country is known as the Land of Fire and Ice?", 
+    "choices": ["Iceland", "Greenland", "Norway", "Finland"], 
+    "correct": "Iceland"
+},
+{
+    "question": "What is the largest desert in the world?", 
+    "choices": ["Antarctic Desert", "Sahara Desert", "Gobi Desert", "Kalahari Desert"], 
+    "correct": "Antarctic Desert"
+},
+{
+    "question": "Who wrote the novel 'Moby-Dick'?", 
+    "choices": ["Herman Melville", "Mark Twain", "Nathaniel Hawthorne", "Edgar Allan Poe"], 
+    "correct": "Herman Melville"
+},
+{
+    "question": "What is the chemical symbol for silver?", 
+    "choices": ["Ag", "Au", "Si", "Pb"], 
+    "correct": "Ag"
+},
+{
+    "question": "Which planet is known as the Morning Star?", 
+    "choices": ["Venus", "Mars", "Mercury", "Jupiter"], 
+    "correct": "Venus"
+},
+{
+    "question": "Who was the first woman to win a Nobel Prize?", 
+    "choices": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Dorothy Hodgkin"], 
+    "correct": "Marie Curie"
+},
+{
+    "question": "What is the capital of Norway?", 
+    "choices": ["Oslo", "Stockholm", "Copenhagen", "Helsinki"], 
+    "correct": "Oslo"
+},
+{
+    "question": "Which country is known for the Eiffel Tower?", 
+    "choices": ["France", "Italy", "Spain", "Germany"], 
+    "correct": "France"
+},
+{
+    "question": "What is the largest mammal on land?", 
+    "choices": ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"], 
+    "correct": "Elephant"
+},
+{
+    "question": "Who wrote the play 'Hamlet'?", 
+    "choices": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Webster"], 
+    "correct": "William Shakespeare"
+},
+{
+    "question": "What is the chemical formula for carbon dioxide?", 
+    "choices": ["CO2", "CO", "C2O", "C2O2"], 
+    "correct": "CO2"
+},
+{
+    "question": "What is the capital of Egypt?", 
+    "choices": ["Cairo", "Alexandria", "Giza", "Luxor"], 
+    "correct": "Cairo"
+},
+{
+    "question": "Which planet is known as the Evening Star?", 
+    "choices": ["Venus", "Mars", "Mercury", "Jupiter"], 
+    "correct": "Venus"
+},
+{
+    "question": "Who wrote the novel 'The Catcher in the Rye'?", 
+    "choices": ["J.D. Salinger", "F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck"], 
+    "correct": "J.D. Salinger"
+},
+{
+    "question": "What is the largest muscle in the human body?", 
+    "choices": ["Gluteus Maximus", "Biceps", "Quadriceps", "Trapezius"], 
+    "correct": "Gluteus Maximus"
+},
+{
+    "question": "Which element is represented by the symbol 'C'?", 
+    "choices": ["Carbon", "Calcium", "Chlorine", "Copper"], 
+    "correct": "Carbon"
+},
+{
+    "question": "Who painted 'The Scream'?", 
+    "choices": ["Edvard Munch", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"], 
+    "correct": "Edvard Munch"
+},
+{
+    "question": "What is the smallest ocean in the world?", 
+    "choices": ["Arctic Ocean", "Indian Ocean", "Southern Ocean", "Atlantic Ocean"], 
+    "correct": "Arctic Ocean"
+},
+{
+    "question": "Who developed the theory of relativity?", 
+    "choices": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"], 
+    "correct": "Albert Einstein"
+},
+{
+    "question": "What is the capital of Turkey?", 
+    "choices": ["Ankara", "Istanbul", "Izmir", "Antalya"], 
+    "correct": "Ankara"
+},
+{
+    "question": "Which country is known as the Land of the Maple Leaf?", 
+    "choices": ["Canada", "United States", "Norway", "Sweden"], 
+    "correct": "Canada"
+},
+{
+    "question": "What is the largest rainforest in the world?", 
+    "choices": ["Amazon Rainforest", "Congo Rainforest", "Daintree Rainforest", "Southeast Asian Rainforest"], 
+    "correct": "Amazon Rainforest"
+},
+{
+    "question": "Who wrote the novel 'Jane Eyre'?", 
+    "choices": ["Charlotte Brontë", "Emily Brontë", "Jane Austen", "George Eliot"], 
+    "correct": "Charlotte Brontë"
+},
+{
+    "question": "What is the chemical symbol for helium?", 
+    "choices": ["He", "H", "Ho", "Hi"], 
+    "correct": "He"
+},
+{
+    "question": "Which planet is known as the Ice Giant?", 
+    "choices": ["Neptune", "Uranus", "Saturn", "Jupiter"], 
+    "correct": "Neptune"
+},
+{
+    "question": "Who was the first woman to win a Nobel Prize in Literature?", 
+    "choices": ["Selma Lagerlöf", "Toni Morrison", "Gabriela Mistral", "Pearl S. Buck"], 
+    "correct": "Selma Lagerlöf"
+},
+{
+    "question": "What is the capital of Denmark?", 
+    "choices": ["Copenhagen", "Oslo", "Stockholm", "Helsinki"], 
+    "correct": "Copenhagen"
+},
+{
+    "question": "Which country is known for the Colosseum?", 
+    "choices": ["Italy", "Greece", "Spain", "France"], 
+    "correct": "Italy"
+},
+{
+    "question": "What is the largest bird in the world?", 
+    "choices": ["Ostrich", "Eagle", "Albatross", "Condor"], 
+    "correct": "Ostrich"
+},
+{
+    "question": "Who wrote the play 'A Midsummer Night's Dream'?", 
+    "choices": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Webster"], 
+    "correct": "William Shakespeare"
+},
+{
+    "question": "What is the chemical formula for ammonia?", 
+    "choices": ["NH3", "NH4", "N2H4", "NH2"], 
+    "correct": "NH3"
+},
+{
+    "question": "What is the capital of Belgium?", 
+    "choices": ["Brussels", "Antwerp", "Ghent", "Bruges"], 
+    "correct": "Brussels"
+},
+{
+    "question": "Which planet is known as the Ringed Planet?", 
+    "choices": ["Saturn", "Jupiter", "Uranus", "Neptune"], 
+    "correct": "Saturn"
+},
+{
+    "question": "Who wrote the novel 'To the Lighthouse'?", 
+    "choices": ["Virginia Woolf", "James Joyce", "D.H. Lawrence", "E.M. Forster"], 
+    "correct": "Virginia Woolf"
+},
+{
+    "question": "What is the largest vein in the human body?", 
+    "choices": ["Inferior Vena Cava", "Superior Vena Cava", "Jugular Vein", "Femoral Vein"], 
+    "correct": "Inferior Vena Cava"
+},
+{
+    "question": "Which element is represented by the symbol 'N'?", 
+    "choices": ["Nitrogen", "Neon", "Nickel", "Nobelium"], 
+    "correct": "Nitrogen"
+},
+{
+    "question": "Who painted 'The Birth of Venus'?", 
+    "choices": ["Sandro Botticelli", "Leonardo da Vinci", "Michelangelo", "Raphael"], 
+    "correct": "Sandro Botticelli"
+},
+{
+    "question": "What is the smallest continent?", 
+    "choices": ["Australia", "Europe", "Antarctica", "South America"], 
+    "correct": "Australia"
+},
+{
+    "question": "Who invented the World Wide Web?", 
+    "choices": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Vint Cerf"], 
+    "correct": "Tim Berners-Lee"
+},
+{
+    "question": "What is the capital of Saudi Arabia?", 
+    "choices": ["Riyadh", "Jeddah", "Mecca", "Medina"], 
+    "correct": "Riyadh"
+},
+{
+    "question": "Which country is known for the Taj Mahal?", 
+    "choices": ["India", "Pakistan", "Bangladesh", "Nepal"], 
+    "correct": "India"
+},
+{
+    "question": "What is the largest reptile in the world?", 
+    "choices": ["Saltwater Crocodile", "Komodo Dragon", "Green Anaconda", "Leatherback Sea Turtle"], 
+    "correct": "Saltwater Crocodile"
+},
+{
+    "question": "Who wrote the play 'Death of a Salesman'?", 
+    "choices": ["Arthur Miller", "Tennessee Williams", "Eugene O'Neill", "Edward Albee"], 
+    "correct": "Arthur Miller"
+},
+{
+    "question": "What is the chemical formula for sulfuric acid?", 
+    "choices": ["H2SO4", "H2S", "HSO4", "SO4"], 
+    "correct": "H2SO4"
+},
+{
+    "question": "What is the capital of South Korea?", 
+    "choices": ["Seoul", "Busan", "Incheon", "Daegu"], 
+    "correct": "Seoul"
+},
+{
+    "question": "Which planet is known as the Dwarf Planet?", 
+    "choices": ["Pluto", "Ceres", "Eris", "Haumea"], 
+    "correct": "Pluto"
+},
+{
+    "question": "Who wrote the novel 'The Picture of Dorian Gray'?", 
+    "choices": ["Oscar Wilde", "James Joyce", "George Orwell", "Aldous Huxley"], 
+    "correct": "Oscar Wilde"
+},
+{
+    "question": "What is the largest nerve in the human body?", 
+    "choices": ["Sciatic Nerve", "Vagus Nerve", "Femoral Nerve", "Optic Nerve"], 
+    "correct": "Sciatic Nerve"
+},
+{
+    "question": "Which element is represented by the symbol 'Mg'?", 
+    "choices": ["Magnesium", "Manganese", "Mercury", "Molybdenum"], 
+    "correct": "Magnesium"
+},
+{
+    "question": "Who painted 'The Night Watch'?", 
+    "choices": ["Rembrandt", "Vincent van Gogh", "Johannes Vermeer", "Frans Hals"], 
+    "correct": "Rembrandt"
+},
+{
+    "question": "What is the largest island in the Mediterranean Sea?", 
+    "choices": ["Sicily", "Sardinia", "Cyprus", "Corsica"], 
+    "correct": "Sicily"
+},
+{
+    "question": "Who invented the telephone?", 
+    "choices": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"], 
+    "correct": "Alexander Graham Bell"
+},
+{
+    "question": "What is the capital of Thailand?", 
+    "choices": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"], 
+    "correct": "Bangkok"
+},
+{
+    "question": "Which country is known for the Great Barrier Reef?", 
+    "choices": ["Australia", "Indonesia", "Philippines", "Thailand"], 
+    "correct": "Australia"
+},
+{
+    "question": "What is the largest fish in the world?", 
+    "choices": ["Whale Shark", "Great White Shark", "Hammerhead Shark", "Manta Ray"], 
+    "correct": "Whale Shark"
+},
+{
+    "question": "Who wrote the play 'The Crucible'?", 
+    "choices": ["Arthur Miller", "Tennessee Williams", "Eugene O'Neill", "Edward Albee"], 
+    "correct": "Arthur Miller"
+},
+{
+    "question": "What is the chemical formula for glucose?", 
+    "choices": ["C6H12O6", "C12H22O11", "C6H6O6", "C6H10O5"], 
+    "correct": "C6H12O6"
+},
+{
+    "question": "What is the capital of Argentina?", 
+    "choices": ["Buenos Aires", "Rio de Janeiro", "Santiago", "Lima"], 
+    "correct": "Buenos Aires"
+},
+{
+    "question": "Which planet is known as the Gas Giant?", 
+    "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"], 
+    "correct": "Jupiter"
+},
+{
+    "question": "Which famous short story collection was written by Jorge Luis Borges?", 
+    "choices": ["Ficciones", "The Aleph", "Labyrinths", "The Garden of Forking Paths"], 
+    "correct": "Ficciones"
+},
+{
+    "question": "In which country was Jorge Luis Borges born?", 
+    "choices": ["Argentina", "Spain", "Chile", "Mexico"], 
+    "correct": "Argentina"
+},
+{
+    "question": "Which literary genre is Jorge Luis Borges most associated with?", 
+    "choices": ["Magical Realism", "Science Fiction", "Fantasy", "Detective Fiction"], 
+    "correct": "Magical Realism"
+},
+{
+    "question": "Which country won the FIFA World Cup in 2018?", 
+    "choices": ["France", "Croatia", "Brazil", "Germany"], 
+    "correct": "France"
+},
+{
+    "question": "Who is the all-time top scorer in the UEFA Champions League?", 
+    "choices": ["Cristiano Ronaldo", "Lionel Messi", "Raúl", "Robert Lewandowski"], 
+    "correct": "Cristiano Ronaldo"
+},
+{
+    "question": "Which club has won the most English Premier League titles?", 
+    "choices": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"], 
+    "correct": "Manchester United"
+},
+{
+    "question": "Which country has won the most FIFA Women's World Cup titles?", 
+    "choices": ["United States", "Germany", "Norway", "Japan"], 
+    "correct": "United States"
+},
+{
+    "question": "Who won the Ballon d'Or in 2021?", 
+    "choices": ["Lionel Messi", "Robert Lewandowski", "Cristiano Ronaldo", "Karim Benzema"], 
+    "correct": "Lionel Messi"
+},
+{
+    "question": "Which player holds the record for the most goals scored in a single World Cup tournament?", 
+    "choices": ["Just Fontaine", "Miroslav Klose", "Pelé", "Ronaldo"], 
+    "correct": "Just Fontaine"
+},
+{
+    "question": "Which country hosted the first FIFA World Cup?", 
+    "choices": ["Uruguay", "Brazil", "Italy", "France"], 
+    "correct": "Uruguay"
+},
+{
+    "question": "Which club has won the most UEFA Champions League titles?", 
+    "choices": ["Real Madrid", "AC Milan", "Liverpool", "Bayern Munich"], 
+    "correct": "Real Madrid"
+},
+{
+    "question": "Who is known as 'The King of Football'?", 
+    "choices": ["Pelé", "Diego Maradona", "Lionel Messi", "Cristiano Ronaldo"], 
+    "correct": "Pelé"
+},
+{
+    "question": "Which country won the UEFA Euro 2020?", 
+    "choices": ["Italy", "England", "Spain", "France"], 
+    "correct": "Italy"
+},
+{
+    "question": "Who is the all-time top scorer in the English Premier League?", 
+    "choices": ["Alan Shearer", "Wayne Rooney", "Andy Cole", "Thierry Henry"], 
+    "correct": "Alan Shearer"
+},
+{
+    "question": "Which player has won the most Ballon d'Or awards?", 
+    "choices": ["Lionel Messi", "Cristiano Ronaldo", "Michel Platini", "Johann Cruyff"], 
+    "correct": "Lionel Messi"
+},
+{
+    "question": "Which country has won the most Copa América titles?", 
+    "choices": ["Uruguay", "Argentina", "Brazil", "Chile"], 
+    "correct": "Uruguay"
+},
+{
+    "question": "Who won the Golden Boot at the 2018 FIFA World Cup?", 
+    "choices": ["Harry Kane", "Antoine Griezmann", "Kylian Mbappé", "Luka Modrić"], 
+    "correct": "Harry Kane"
+},
+{
+    "question": "Which club has won the most FA Cup titles?", 
+    "choices": ["Arsenal", "Manchester United", "Chelsea", "Liverpool"], 
+    "correct": "Arsenal"
+},
+{
+    "question": "Which country has won the most Copa Libertadores titles?", 
+    "choices": ["Argentina", "Brazil", "Uruguay", "Paraguay"], 
+    "correct": "Argentina"
+},
+{
+    "question": "Who is the all-time top scorer in the Copa Libertadores?", 
+    "choices": ["Pelé", "Romário", "Zico", "Ronaldo"], 
+    "correct": "Pelé"
+},
+{
+    "question": "Which player has won the most FIFA World Cup titles?", 
+    "choices": ["Pelé", "Diego Maradona", "Zinedine Zidane", "Ronaldo"], 
+    "correct": "Pelé"
+},
+{
+    "question": "Who won the Golden Ball at the 2014 FIFA World Cup?", 
+    "choices": ["Lionel Messi", "Thomas Müller", "James Rodríguez", "Neymar"], 
+    "correct": "Lionel Messi"
+},
+{
+    "question": "Which novel by Vladimir Nabokov features a fictional poet named John Shade?",
+    "choices": ["Pale Fire", "Ada or Ardor", "Pnin", "The Real Life of Sebastian Knight"],
+    "correct": "Pale Fire"
+}, 
+{
+    "question": "What is the capital of Serbia?", 
+    "choices": ["Belgrade", "Sarajevo", "Zagreb", "Skopje"], 
+    "correct": "Belgrade"
+},
+{
+    "question": "Which country is known for the historic region of Transylvania?", 
+    "choices": ["Romania", "Bulgaria", "Serbia", "Albania"], 
+    "correct": "Romania"
+},
+{
+    "question": "What is the official language of Croatia?", 
+    "choices": ["Croatian", "Serbian", "Bosnian", "Slovenian"], 
+    "correct": "Croatian"
+},
+{
+    "question": "Which river flows through the capital of Bosnia and Herzegovina?", 
+    "choices": ["Miljacka", "Danube", "Sava", "Drina"], 
+    "correct": "Miljacka"
+},
+{
+    "question": "What is the currency of Bulgaria?", 
+    "choices": ["Lev", "Euro", "Dinar", "Kuna"], 
+    "correct": "Lev"
+},
+{
+    "question": "Which country is famous for the ancient city of Dubrovnik?", 
+    "choices": ["Croatia", "Montenegro", "Bosnia and Herzegovina", "Slovenia"], 
+    "correct": "Croatia"
+},
+{
+    "question": "What is the highest mountain in the Balkans?", 
+    "choices": ["Mount Musala", "Mount Olympus", "Mount Korab", "Mount Durmitor"], 
+    "correct": "Mount Musala"
+},
+{
+    "question": "Which country is known for the historic region of Macedonia?", 
+    "choices": ["North Macedonia", "Greece", "Bulgaria", "Albania"], 
+    "correct": "North Macedonia"
+},
+{
+    "question": "What is the capital of Albania?", 
+    "choices": ["Tirana", "Podgorica", "Pristina", "Skopje"], 
+    "correct": "Tirana"
+},
+{
+    "question": "Which country is known for the Plitvice Lakes National Park?", 
+    "choices": ["Croatia", "Serbia", "Bosnia and Herzegovina", "Montenegro"], 
+    "correct": "Croatia"
+},
+{
+    "question": "What is the official language of Montenegro?", 
+    "choices": ["Montenegrin", "Serbian", "Croatian", "Bosnian"], 
+    "correct": "Montenegrin"
+},
+{
+    "question": "Which country is known for the historic city of Thessaloniki?", 
+    "choices": ["Greece", "North Macedonia", "Albania", "Bulgaria"], 
+    "correct": "Greece"
+},
+{
+    "question": "What is the currency of North Macedonia?", 
+    "choices": ["Denar", "Euro", "Lev", "Dinar"], 
+    "correct": "Denar"
+},
+{
+    "question": "Which river forms part of the border between Romania and Bulgaria?", 
+    "choices": ["Danube", "Sava", "Drina", "Vardar"], 
+    "correct": "Danube"
+},
+{
+    "question": "What is the capital of Slovenia?", 
+    "choices": ["Ljubljana", "Zagreb", "Belgrade", "Sarajevo"], 
+    "correct": "Ljubljana"
+},
+{
+    "question": "Which country is known for the historic region of Istria?", 
+    "choices": ["Croatia", "Slovenia", "Italy", "Montenegro"], 
+    "correct": "Croatia"
+},
+{
+    "question": "What is the official language of Bosnia and Herzegovina?", 
+    "choices": ["Bosnian", "Croatian", "Serbian", "All of the above"], 
+    "correct": "All of the above"
+},
+{
+    "question": "Which country is known for the historic city of Sofia?", 
+    "choices": ["Bulgaria", "Serbia", "Romania", "Greece"], 
+    "correct": "Bulgaria"
+},
+{
+    "question": "What is the currency of Serbia?", 
+    "choices": ["Dinar", "Euro", "Lev", "Kuna"], 
+    "correct": "Dinar"
+}, 
+
+{
+    "question": "What is the capital of Kosovo?", 
+    "choices": ["Pristina", "Peja", "Mitrovica", "Prizren"], 
+    "correct": "Pristina"
+},
+{
+    "question": "Which mountain range is located in Kosovo?", 
+    "choices": ["Sharr Mountains", "Ural Mountains", "Dinaric Alps", "Carpathian Mountains"], 
+    "correct": "Sharr Mountains"
+},
+{
+    "question": "What is the official currency of Kosovo?", 
+    "choices": ["Euro", "Dinar", "Lek", "Lev"], 
+    "correct": "Euro"
+}
 
 ]
 
