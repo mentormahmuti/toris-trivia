@@ -99,7 +99,6 @@
 {"question": "Which country is known as the Land of the Rising Sun?", "choices": ["Japan", "South Korea", "China", "Thailand"], "correct": "Japan"},
 
 {"question": "Which country hosted the 2016 Summer Olympics?", "choices": ["Brazil", "China", "United States", "Russia"], "correct": "Brazil"},
-{"question": "Which player holds the record for the most goals in World Cup history?", "choices": ["Marta", "Cristiano Ronaldo", "Miroslav Klose", "Pele"], "correct": "Miroslav Klose"},
 {"question": "Which country has won the most Rugby World Cups?", "choices": ["New Zealand", "Australia", "South Africa", "England"], "correct": "New Zealand"},
 {"question": "In which sport would you perform a slam dunk?", "choices": ["Basketball", "Volleyball", "Tennis", "Football"], "correct": "Basketball"},
 {"question": "Which country is known for the sport of sumo wrestling?", "choices": ["Japan", "China", "South Korea", "Thailand"], "correct": "Japan"},
