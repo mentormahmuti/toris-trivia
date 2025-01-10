@@ -597,7 +597,7 @@
 {
     "question": "Which country has won the most Copa América titles?", 
     "choices": ["Uruguay", "Argentina", "Brazil", "Chile"], 
-    "correct": "Uruguay"
+    "correct": "Argentina"
 },
 {
     "question": "Who won the Golden Boot at the 2018 FIFA World Cup?", 
